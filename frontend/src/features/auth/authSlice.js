@@ -12,7 +12,6 @@ const initialState = {
   message: '',
 };
 
-// A function so we can use asynchronous data: Register new user
 export const register = createAsyncThunk(
   'auth/register',
   async (user, thunkAPI) => {
